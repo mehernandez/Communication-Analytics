@@ -21,7 +21,6 @@
 		ACE350661C8FE79000E5A38E /* HTTPStatusCodes.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACE350571C8FE68000E5A38E /* HTTPStatusCodes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ACE350671C8FE79000E5A38E /* AlamofireObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACE350551C8FE67700E5A38E /* AlamofireObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ACE350681C8FE79000E5A38E /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACE350531C8FE66C00E5A38E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		ACF41D041C9314FB0052B11D /* Boton_Grabar.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF41D031C9314FB0052B11D /* Boton_Grabar.png */; };
 		FAB67B6E1C8FC8DA00F70BC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB67B6D1C8FC8DA00F70BC7 /* AppDelegate.swift */; };
 		FAB67B701C8FC8DA00F70BC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB67B6F1C8FC8DA00F70BC7 /* ViewController.swift */; };
 		FAB67B731C8FC8DA00F70BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB67B711C8FC8DA00F70BC7 /* Main.storyboard */; };
@@ -29,7 +28,6 @@
 		FAB67B781C8FC8DA00F70BC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB67B761C8FC8DA00F70BC7 /* LaunchScreen.xib */; };
 		FAB67B841C8FC8DA00F70BC7 /* Comunication_AnalyticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB67B831C8FC8DA00F70BC7 /* Comunication_AnalyticsTests.swift */; };
 		FAB67B981C8FD06000F70BC7 /* CeldaDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB67B971C8FD06000F70BC7 /* CeldaDatos.swift */; };
-		FAB67B9B1C8FD2A400F70BC7 /* Mic.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB67B9A1C8FD2A400F70BC7 /* Mic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +67,6 @@
 		ACE3505B1C8FE69200E5A38E /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
 		ACE3505D1C8FE69D00E5A38E /* WatsonDeveloperCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatsonDeveloperCloud.framework; path = Carthage/Build/iOS/WatsonDeveloperCloud.framework; sourceTree = "<group>"; };
 		ACE3505F1C8FE6A600E5A38E /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
-		ACF41D031C9314FB0052B11D /* Boton_Grabar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boton_Grabar.png; sourceTree = "<group>"; };
 		FAB67B681C8FC8DA00F70BC7 /* Comunication Analytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comunication Analytics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB67B6C1C8FC8DA00F70BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB67B6D1C8FC8DA00F70BC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,7 +78,6 @@
 		FAB67B821C8FC8DA00F70BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB67B831C8FC8DA00F70BC7 /* Comunication_AnalyticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comunication_AnalyticsTests.swift; sourceTree = "<group>"; };
 		FAB67B971C8FD06000F70BC7 /* CeldaDatos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaDatos.swift; sourceTree = "<group>"; };
-		FAB67B9A1C8FD2A400F70BC7 /* Mic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +146,6 @@
 				FAB67B711C8FC8DA00F70BC7 /* Main.storyboard */,
 				FAB67B741C8FC8DA00F70BC7 /* Images.xcassets */,
 				FAB67B761C8FC8DA00F70BC7 /* LaunchScreen.xib */,
-				FAB67B991C8FD0FA00F70BC7 /* Imagenes */,
 				FAB67B921C8FCFA400F70BC7 /* Celdas */,
 				FAB67B6B1C8FC8DA00F70BC7 /* Supporting Files */,
 			);
@@ -188,15 +183,6 @@
 				FAB67B971C8FD06000F70BC7 /* CeldaDatos.swift */,
 			);
 			name = Celdas;
-			sourceTree = "<group>";
-		};
-		FAB67B991C8FD0FA00F70BC7 /* Imagenes */ = {
-			isa = PBXGroup;
-			children = (
-				ACF41D031C9314FB0052B11D /* Boton_Grabar.png */,
-				FAB67B9A1C8FD2A400F70BC7 /* Mic.png */,
-			);
-			name = Imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,10 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB67B731C8FC8DA00F70BC7 /* Main.storyboard in Resources */,
-				ACF41D041C9314FB0052B11D /* Boton_Grabar.png in Resources */,
 				FAB67B781C8FC8DA00F70BC7 /* LaunchScreen.xib in Resources */,
 				FAB67B751C8FC8DA00F70BC7 /* Images.xcassets in Resources */,
-				FAB67B9B1C8FD2A400F70BC7 /* Mic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

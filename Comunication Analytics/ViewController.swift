@@ -12,6 +12,9 @@ import AVFoundation
 
 class ViewController: UIViewController, AVAudioRecorderDelegate {
     
+    @IBOutlet weak var lblScore: UILabel!
+    @IBOutlet weak var lblSentiment: UILabel!
+    @IBOutlet weak var imgWatson: UIImageView!
     @IBOutlet weak var resultText: UITextView!
     
     @IBOutlet weak var btnRecord: UIButton!
@@ -96,12 +99,19 @@ class ViewController: UIViewController, AVAudioRecorderDelegate {
             startRecording()
             //
             // cambiar boton a parar
+            btnRecord.setImage(UIImage(named: "Boton_Pausa"), forState: .Normal)
             
             print("Recording")
         } else {
             finishRecording(success: true)
             print("finished")
             // cambiar botón a watson
+            btnRecord.setImage(UIImage(named: "Boton_Grabar"), forState: .Normal)
+            btnRecord.enabled = false
+            
+            imgWatson.hidden = false
+            
+            
             initializeService1()
             print("Watson initialized")
         }
@@ -139,37 +149,31 @@ class ViewController: UIViewController, AVAudioRecorderDelegate {
            
                 self.resultText.text = resultT
                 
+                self.btnRecord.enabled = true
+                
+                
                 // cambiar botón a watson cargando 2
                 
                 // Tone Analysis
                 
 
-                //let token = TokenAuthenticationStrategy(token : <b1ccaaa323cb7145ff0159a1218a3c78e70ffaf2>)
-                //let alchemyLanguageInstance = AlchemyLanguage(tokenAuthenticationStrategy: token)
                 let alchemyLanguageInstance = AlchemyLanguage(apiKey: "b1ccaaa323cb7145ff0159a1218a3c78e70ffaf2")
                 
-               /* alchemyLanguageInstance.getEntities(requestType: .Text,
-                    html: nil,
-                    url: nil,
-                    text: resultText) {
-                        
-                        (error, SentimentResponse) in
-                        
-                        // returned data is inside "entities" in this case
-                        // code here
-                        
-                        print(SentimentResponse)
-                        
-                        
-                }
                 
-                */
+
                 
-                alchemyLanguageInstance.getSentiment(requestType: .Text, html: nil, url: nil, text: "im really sad"){
+                alchemyLanguageInstance.getSentiment(requestType: .Text, html: nil, url: nil, text: resultT){
                  
-                    (error, SentimentResponse) in
+                    (error, sen) in
                     
-                    print(SentimentResponse)
+                    //print(sen)
+                    
+                    let res = sen.sentimentResults
+                    
+                   
+                    
+                    print("g")
+                    
                     
                 }
                 
@@ -182,6 +186,24 @@ class ViewController: UIViewController, AVAudioRecorderDelegate {
         
 
         
+    }
+    
+    @IBAction func op(){
+        
+        let alchemyLanguageInstance = AlchemyLanguage(apiKey: "b1ccaaa323cb7145ff0159a1218a3c78e70ffaf2")
+        
+        alchemyLanguageInstance.getEntities(requestType: .URL,
+            html: nil,
+            url: "http://www.google.com",
+            text: nil) {
+                
+                (error, entities) in
+                
+                // returned data is inside "entities" in this case
+                // code here
+                print(entities)
+                
+        }
     }
     
     
