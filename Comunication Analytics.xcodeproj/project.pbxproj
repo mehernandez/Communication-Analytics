@@ -7,12 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACE350541C8FE66C00E5A38E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE350531C8FE66C00E5A38E /* Alamofire.framework */; };
+		ACE350561C8FE67700E5A38E /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE350551C8FE67700E5A38E /* AlamofireObjectMapper.framework */; };
+		ACE350581C8FE68000E5A38E /* HTTPStatusCodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE350571C8FE68000E5A38E /* HTTPStatusCodes.framework */; };
+		ACE3505A1C8FE68900E5A38E /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE350591C8FE68900E5A38E /* ObjectMapper.framework */; };
+		ACE3505C1C8FE69200E5A38E /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE3505B1C8FE69200E5A38E /* Starscream.framework */; };
+		ACE3505E1C8FE69D00E5A38E /* WatsonDeveloperCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE3505D1C8FE69D00E5A38E /* WatsonDeveloperCloud.framework */; };
+		ACE350601C8FE6A600E5A38E /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE3505F1C8FE6A600E5A38E /* XCGLogger.framework */; };
+		ACE350621C8FE79000E5A38E /* XCGLogger.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACE3505F1C8FE6A600E5A38E /* XCGLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ACE350631C8FE79000E5A38E /* WatsonDeveloperCloud.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACE3505D1C8FE69D00E5A38E /* WatsonDeveloperCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ACE350641C8FE79000E5A38E /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACE3505B1C8FE69200E5A38E /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ACE350651C8FE79000E5A38E /* ObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACE350591C8FE68900E5A38E /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ACE350661C8FE79000E5A38E /* HTTPStatusCodes.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACE350571C8FE68000E5A38E /* HTTPStatusCodes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ACE350671C8FE79000E5A38E /* AlamofireObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACE350551C8FE67700E5A38E /* AlamofireObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ACE350681C8FE79000E5A38E /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACE350531C8FE66C00E5A38E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ACF41D041C9314FB0052B11D /* Boton_Grabar.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF41D031C9314FB0052B11D /* Boton_Grabar.png */; };
 		FAB67B6E1C8FC8DA00F70BC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB67B6D1C8FC8DA00F70BC7 /* AppDelegate.swift */; };
 		FAB67B701C8FC8DA00F70BC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB67B6F1C8FC8DA00F70BC7 /* ViewController.swift */; };
 		FAB67B731C8FC8DA00F70BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB67B711C8FC8DA00F70BC7 /* Main.storyboard */; };
 		FAB67B751C8FC8DA00F70BC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB67B741C8FC8DA00F70BC7 /* Images.xcassets */; };
 		FAB67B781C8FC8DA00F70BC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB67B761C8FC8DA00F70BC7 /* LaunchScreen.xib */; };
 		FAB67B841C8FC8DA00F70BC7 /* Comunication_AnalyticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB67B831C8FC8DA00F70BC7 /* Comunication_AnalyticsTests.swift */; };
+		FAB67B981C8FD06000F70BC7 /* CeldaDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB67B971C8FD06000F70BC7 /* CeldaDatos.swift */; };
+		FAB67B9B1C8FD2A400F70BC7 /* Mic.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB67B9A1C8FD2A400F70BC7 /* Mic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +42,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ACE350611C8FE75B00E5A38E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ACE350621C8FE79000E5A38E /* XCGLogger.framework in CopyFiles */,
+				ACE350631C8FE79000E5A38E /* WatsonDeveloperCloud.framework in CopyFiles */,
+				ACE350641C8FE79000E5A38E /* Starscream.framework in CopyFiles */,
+				ACE350651C8FE79000E5A38E /* ObjectMapper.framework in CopyFiles */,
+				ACE350661C8FE79000E5A38E /* HTTPStatusCodes.framework in CopyFiles */,
+				ACE350671C8FE79000E5A38E /* AlamofireObjectMapper.framework in CopyFiles */,
+				ACE350681C8FE79000E5A38E /* Alamofire.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		ACE350531C8FE66C00E5A38E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		ACE350551C8FE67700E5A38E /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		ACE350571C8FE68000E5A38E /* HTTPStatusCodes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTTPStatusCodes.framework; path = Carthage/Build/iOS/HTTPStatusCodes.framework; sourceTree = "<group>"; };
+		ACE350591C8FE68900E5A38E /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		ACE3505B1C8FE69200E5A38E /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		ACE3505D1C8FE69D00E5A38E /* WatsonDeveloperCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatsonDeveloperCloud.framework; path = Carthage/Build/iOS/WatsonDeveloperCloud.framework; sourceTree = "<group>"; };
+		ACE3505F1C8FE6A600E5A38E /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
+		ACF41D031C9314FB0052B11D /* Boton_Grabar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boton_Grabar.png; sourceTree = "<group>"; };
 		FAB67B681C8FC8DA00F70BC7 /* Comunication Analytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comunication Analytics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB67B6C1C8FC8DA00F70BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB67B6D1C8FC8DA00F70BC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +80,8 @@
 		FAB67B7D1C8FC8DA00F70BC7 /* Comunication AnalyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comunication AnalyticsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB67B821C8FC8DA00F70BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB67B831C8FC8DA00F70BC7 /* Comunication_AnalyticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comunication_AnalyticsTests.swift; sourceTree = "<group>"; };
+		FAB67B971C8FD06000F70BC7 /* CeldaDatos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaDatos.swift; sourceTree = "<group>"; };
+		FAB67B9A1C8FD2A400F70BC7 /* Mic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +89,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE350541C8FE66C00E5A38E /* Alamofire.framework in Frameworks */,
+				ACE350561C8FE67700E5A38E /* AlamofireObjectMapper.framework in Frameworks */,
+				ACE3505A1C8FE68900E5A38E /* ObjectMapper.framework in Frameworks */,
+				ACE350601C8FE6A600E5A38E /* XCGLogger.framework in Frameworks */,
+				ACE3505C1C8FE69200E5A38E /* Starscream.framework in Frameworks */,
+				ACE350581C8FE68000E5A38E /* HTTPStatusCodes.framework in Frameworks */,
+				ACE3505E1C8FE69D00E5A38E /* WatsonDeveloperCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +109,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACE350441C8FE56B00E5A38E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACE3505F1C8FE6A600E5A38E /* XCGLogger.framework */,
+				ACE3505D1C8FE69D00E5A38E /* WatsonDeveloperCloud.framework */,
+				ACE3505B1C8FE69200E5A38E /* Starscream.framework */,
+				ACE350591C8FE68900E5A38E /* ObjectMapper.framework */,
+				ACE350571C8FE68000E5A38E /* HTTPStatusCodes.framework */,
+				ACE350551C8FE67700E5A38E /* AlamofireObjectMapper.framework */,
+				ACE350531C8FE66C00E5A38E /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAB67B5F1C8FC8DA00F70BC7 = {
 			isa = PBXGroup;
 			children = (
+				ACE350441C8FE56B00E5A38E /* Frameworks */,
 				FAB67B6A1C8FC8DA00F70BC7 /* Comunication Analytics */,
 				FAB67B801C8FC8DA00F70BC7 /* Comunication AnalyticsTests */,
 				FAB67B691C8FC8DA00F70BC7 /* Products */,
@@ -82,6 +150,8 @@
 				FAB67B711C8FC8DA00F70BC7 /* Main.storyboard */,
 				FAB67B741C8FC8DA00F70BC7 /* Images.xcassets */,
 				FAB67B761C8FC8DA00F70BC7 /* LaunchScreen.xib */,
+				FAB67B991C8FD0FA00F70BC7 /* Imagenes */,
+				FAB67B921C8FCFA400F70BC7 /* Celdas */,
 				FAB67B6B1C8FC8DA00F70BC7 /* Supporting Files */,
 			);
 			path = "Comunication Analytics";
@@ -112,6 +182,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FAB67B921C8FCFA400F70BC7 /* Celdas */ = {
+			isa = PBXGroup;
+			children = (
+				FAB67B971C8FD06000F70BC7 /* CeldaDatos.swift */,
+			);
+			name = Celdas;
+			sourceTree = "<group>";
+		};
+		FAB67B991C8FD0FA00F70BC7 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				ACF41D031C9314FB0052B11D /* Boton_Grabar.png */,
+				FAB67B9A1C8FD2A400F70BC7 /* Mic.png */,
+			);
+			name = Imagenes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,6 +209,7 @@
 				FAB67B641C8FC8DA00F70BC7 /* Sources */,
 				FAB67B651C8FC8DA00F70BC7 /* Frameworks */,
 				FAB67B661C8FC8DA00F70BC7 /* Resources */,
+				ACE350611C8FE75B00E5A38E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -156,11 +244,13 @@
 		FAB67B601C8FC8DA00F70BC7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Mateo Badillo";
 				TargetAttributes = {
 					FAB67B671C8FC8DA00F70BC7 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = J825CW78Y6;
 					};
 					FAB67B7C1C8FC8DA00F70BC7 = {
 						CreatedOnToolsVersion = 6.4;
@@ -193,8 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB67B731C8FC8DA00F70BC7 /* Main.storyboard in Resources */,
+				ACF41D041C9314FB0052B11D /* Boton_Grabar.png in Resources */,
 				FAB67B781C8FC8DA00F70BC7 /* LaunchScreen.xib in Resources */,
 				FAB67B751C8FC8DA00F70BC7 /* Images.xcassets in Resources */,
+				FAB67B9B1C8FD2A400F70BC7 /* Mic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB67B701C8FC8DA00F70BC7 /* ViewController.swift in Sources */,
+				FAB67B981C8FD06000F70BC7 /* CeldaDatos.swift in Sources */,
 				FAB67B6E1C8FC8DA00F70BC7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +369,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -342,9 +436,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Comunication Analytics/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Practiamigos.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -352,9 +455,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Comunication Analytics/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Practiamigos.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -372,6 +484,7 @@
 				);
 				INFOPLIST_FILE = "Comunication AnalyticsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Practiamigos.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Comunication Analytics.app/Comunication Analytics";
 			};
@@ -387,6 +500,7 @@
 				);
 				INFOPLIST_FILE = "Comunication AnalyticsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Practiamigos.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Comunication Analytics.app/Comunication Analytics";
 			};
@@ -411,6 +525,7 @@
 				FAB67B891C8FC8DA00F70BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAB67B8A1C8FC8DA00F70BC7 /* Build configuration list for PBXNativeTarget "Comunication AnalyticsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +534,7 @@
 				FAB67B8C1C8FC8DA00F70BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
