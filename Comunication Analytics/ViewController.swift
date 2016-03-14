@@ -149,7 +149,7 @@ class ViewController: UIViewController, AVAudioRecorderDelegate {
            
                 self.resultText.text = resultT
                 
-                self.btnRecord.enabled = true
+                //self.btnRecord.enabled = true
                 
                 
                 // cambiar botón a watson cargando 2
@@ -168,11 +168,26 @@ class ViewController: UIViewController, AVAudioRecorderDelegate {
                     
                     //print(sen)
                     
-                    let res = sen.sentimentResults
+                    let res = sen.docSentiment!
+                    
+                    self.lblSentiment.text = res.type
+                    
+                    
+                    if let sc = res.score {
+                         self.lblScore.text = "\(sc)"
+                    }else {
+                        self.lblScore.text = "0.0"
+                    }
+                    
+                    self.imgWatson.hidden = true
+                    
+                    self.btnRecord.enabled = true
+                    
+                    
                     
                    
                     
-                    print("g")
+          //          print("g")
                     
                     
                 }
